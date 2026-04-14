@@ -149,4 +149,4 @@ repack_squashfs(rootfs_extracted, rootfs_new, compression=comp or 'xz')
 patch_image(bin_file, rootfs_new, rootfs_offset, rootfs_size, modified)
 
 
-print(f'Program completed! Modified image saved as "modified.bin" in {out_dir}. Its ready to be flashed!')
+print(f'Program completed! Modified image saved as "modified.bin" in {out_dir}. Its ready to be flashed! Good luck!')
