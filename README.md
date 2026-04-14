@@ -2,7 +2,7 @@
 A very simple tool for modifying a squashfs based Linux root filesystem.
 
 # What it does 
-`rootfs_modifier.py` sets the root password to null. It clears the root password has, making the root account have no password. 
+`rootfs_modifier.py` sets the root password to null. It clears the root password hash, making the root account have no password. 
 
 This script is very likely to be used in Off-Board Firmware Extraction. Sometimes WINBOND or other EEPROM chips require a password for the root shell. 
 
